@@ -4,9 +4,9 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://insui12.github.io/insui12-seojin.github.io/",
+  site: "https://insui12.github.io",
+  base: "/insui12-seojin.github.io/",
   vite: {
     plugins: [tailwindcss()],
   },
 });
-
